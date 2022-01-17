@@ -1,0 +1,458 @@
+@font-face {
+    font-family:justusitalic;
+    src: url(../fonts/Justus-Italic.ttf);
+}
+@font-face {
+    font-family: loveloblack;
+    src: url(../fonts/Lovelo_Black.otf);
+}
+
+@font-face {
+    font-family: Justus-Oldstyle;
+    src: url(../fonts/Justus-Oldstyle.ttf);
+}
+@font-face{
+    font-family: Justus-Versalitas;
+    src: url(../fonts/Justus-Versalitas.ttf);
+}
+body {
+    background-image: url(../img/bg.png);
+    margin: 0;
+}
+/*-------------------HEADER-------------------*/
+header {
+    padding-top: 19PX;
+}
+.logotext1 {
+    font-family: justusitalic;
+    font-size: 14px;
+    float: left;
+    margin:  49px 10px 0 80px;
+    letter-spacing: 0.34px;
+    
+}
+.logotext2 {
+    font-family: justusitalic;
+    font-size: 14px;
+    color: brown;
+    float: left;
+    text-transform: uppercase;
+    margin:  49px 10px 0 19px;
+    letter-spacing: 0.34px;
+}
+.logoimg {
+    float: left;
+}
+/*-------------------MAIN-------------------*/
+main {
+    background: url(../img/main.png) no-repeat;
+    padding: 1px;
+    padding-left: 79px;
+    margin-top: -9px;
+    
+
+}
+.wrapper {
+    width: 979px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+.clear {
+    clear: both;
+}
+h1 {
+    font-family: loveloblack;
+    font-size: 50px;
+    margin:  64px 0 0 0;
+    letter-spacing: 7px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: 20px 0 17px 0;
+    text-align: center;
+    width: 820px;
+    box-shadow: 0 2px 0 0 #e5e5e5,0 3px 0 0 black,
+    0 -2px 0 0 #e5e5e5,0 -3px 0 0 black
+    ;
+
+}
+/* **********************section1*********************** */
+.images{position: relative;
+    width: 445px;
+    border-right: 1px solid gray ;
+    float: left;
+}
+.sec1{
+    margin-top: 40px; 
+}
+
+.sec1 a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 12px;
+font-family: loveloblack;
+padding: 15px 15px ;
+bottom: 1px;
+right: 40px;
+}
+.sec1 a:hover{
+    background-color: #c45f5f;
+}
+
+.images img{
+    box-shadow:  0 -5px 0 0 black;
+}
+.art1{
+    float: left;
+    width: 377px;
+padding-left:32px;
+margin-top: -10px;
+}
+.art1 header{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: loveloblack;
+    letter-spacing: 1.7px;
+    line-height: 1.2;
+    padding-top: 0;
+    
+}
+.art1 h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    font-family: loveloblack;
+    margin-top: 14px;
+}
+.art1 p{
+    margin-top: -3px;
+    font-family: Justus-Oldstyle;
+    line-height: 1.4;
+}
+/* **********************section2*********************** */
+.img2{
+    position: relative;
+    width: 178px;
+    height: 200px;
+    float: left;
+     margin-right: 25px;
+}
+.img2 img{
+    box-shadow:  0 -3px 0 0 black;
+}
+.sec2{
+    margin-top: 84px; 
+    border-right: 1px solid grey;
+    width: 406px;
+}
+.art2 header{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: loveloblack;
+    font-weight: bold;
+    padding-top: 0;
+    line-height: 0.8;
+}
+.art2 h3{
+    font-size: 14px;
+    font-family: justusitalic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.art2 p{
+    font-size: 14px;
+    font-family: Justus-Oldstyle;
+     margin-top: 1px;
+     line-height: 1.8;
+}
+
+.art2 a{
+    font-size: 14px;
+    font-family: justusitalic;
+    color: #d69a9a;
+}
+/* **********************section2/2*********************** */
+.img2-2{
+    position: relative;
+    width: 178px;
+    height: 200px;
+    float: left;
+     margin-right: 25px;
+}
+.img2-2 img{
+    box-shadow:  0 -3px 0 0 black;
+}
+.sec2-2{
+    margin-left: 431px; 
+    margin-top: -125px;
+}
+.art2-2 header{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: loveloblack;
+    font-weight: bold;
+    padding-top: 0;
+    line-height: 0.8;
+}
+.art2-2 h3{
+    font-size: 14px;
+    font-family: justusitalic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.art2-2 p{
+    font-size: 14px;
+    font-family: Justus-Oldstyle;
+     margin-top: 1px;
+     line-height: 1.8;
+}
+
+.art2-2 a{
+    font-size: 14px;
+    font-family: justusitalic;
+    color: #d69a9a;
+}
+/* **********************section3*********************** */
+.img3{
+    position: relative;
+    width: 178px;
+    height: 200px;
+    float: left;
+     margin-right: 25px;
+}
+.img3 img{
+    box-shadow:  0 -3px 0 0 black;
+}
+.sec3{
+    margin-top: 94px; 
+    border-right: 1px solid grey;
+    width: 406px;
+    /* border-top: 1px solid grey;
+    height: 10px;
+    border: none; */
+}
+.art3 header{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: loveloblack;
+    font-weight: bold;
+    padding-top: 0;
+    line-height: 0.8;
+}
+.art3 h3{
+    font-size: 14px;
+    font-family: justusitalic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.art3 p{
+    font-size: 14px;
+    font-family: Justus-Oldstyle;
+     margin-top: 1px;
+     line-height: 1.8;
+}
+
+.art3 a{
+    font-size: 14px;
+    font-family: justusitalic;
+    color: #d69a9a;
+}
+/* **********************section3/2*********************** */
+.img3-2{
+    position: relative;
+    width: 178px;
+    height: 200px;
+    float: left;
+     margin-right: 25px;
+}
+.img3-2 img{
+    box-shadow:  0 -3px 0 0 black;
+}
+.sec3-2{
+    margin-left: 431px; 
+    margin-top: -125px;
+}
+.art3-2 header{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: loveloblack;
+    font-weight: bold;
+    padding-top: 0;
+    line-height: 0.8;
+}
+.art3-2 h3{
+    font-size: 14px;
+    font-family: justusitalic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.art3-2 p{
+    font-size: 14px;
+    font-family: Justus-Oldstyle;
+     margin-top: 1px;
+     line-height: 1.8;
+}
+
+.art3-2 a{
+    font-size: 14px;
+    font-family: justusitalic;
+    color: #d69a9a;
+}
+/* **********************section4*********************** */
+.img4{
+    position: relative;
+    width: 178px;
+    height: 200px;
+    float: left;
+     margin-right: 25px;
+}
+.img4 img{
+    box-shadow:  0 -3px 0 0 black;
+}
+.sec4{
+    margin-top: 111px; 
+    border-right: 1px solid grey;
+    width: 406px;
+    /* border-top: 1px solid grey;
+    height: 10px;
+    border: none; */
+}
+.art4 header{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: loveloblack;
+    font-weight: bold;
+    padding-top: 0;
+    line-height: 0.8;
+}
+.art4 h3{
+    font-size: 14px;
+    font-family: justusitalic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.art4 p{
+    font-size: 14px;
+    font-family: Justus-Oldstyle;
+     margin-top: 1px;
+     line-height: 1.8;
+}
+
+.art4 a{
+    font-size: 14px;
+    font-family: justusitalic;
+    color: #d69a9a;
+}
+/* **********************section4/2*********************** */
+.img4-2{
+    position: relative;
+    width: 178px;
+    height: 200px;
+    float: left;
+     margin-right: 25px;
+}
+.img4-2 img{
+    box-shadow:  0 -3px 0 0 black;
+}
+.sec4-2{
+    margin-left: 431px; 
+    margin-top: -125px;
+}
+.art4-2 header{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: loveloblack;
+    font-weight: bold;
+    padding-top: 0;
+    line-height: 0.8;
+}
+.art4-2 h3{
+    font-size: 14px;
+    font-family: justusitalic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.art4-2 p{
+    font-size: 14px;
+    font-family: Justus-Oldstyle;
+     margin-top: 1px;
+     line-height: 1.8;
+}
+
+.art4-2 a{
+    font-size: 14px;
+    font-family: justusitalic;
+    color: #d69a9a;
+}
+/* *************************************************FOOTER*************************************** */
+
+footer{ 
+    width: 845px;
+    overflow: visible;
+    margin-top: 44px;
+}
+hr{
+    border: none;
+   
+    
+}
+hr::after{
+    content: "..........................................................................";
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+.about{
+    height: 81px;
+    float: left;
+    border-left: 4px solid black;
+    padding-left: 20px;
+    width: 617px;
+}
+.about h2{
+    font-size: 14px;
+    font-family: loveloblack;
+    text-transform: uppercase;
+    margin: -2px 0 0 -12px;
+}
+.about p{
+    font-size: 14px;
+    font-family: Justus-Versalitas;
+    margin: 4px 0 0 -9px;
+    line-height: 1.6;
+}
+.about span{
+    color: red;
+    font-size: 16px;
+    font-family: justusitalic;
+    padding: 0 0 0 3px;
+}
+.followUs h3{
+    font-size: 14px;
+    font-family: loveloblack;
+    text-transform: uppercase;
+}
+.sprite{
+    background: url(../img/MicrosoftTeams-image.png) no-repeat;
+    width: 41px;
+    height: 41px;
+    float: left;
+}
+.dr{
+    background-color: #cacaca;
+    background-position: 3px 7px;
+}
+.dr:hover{
+    background-color: #e597c4;
+}
